@@ -2,7 +2,7 @@ const http = require('http');
 const fs = require('fs');
 
 const hostname = '206.189.134.99';
-const port = 3000;
+const port = 3001;
 
 fs.readFile('index.html',(err,html) =>{
   if(err){
